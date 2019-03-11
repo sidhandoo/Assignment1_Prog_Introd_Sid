@@ -21,6 +21,8 @@ namespace Assignment1_Prog_Introd_Sid
             int[] arr = new int[] { 1, 2, 3, 2, 2, 1, 3, 2 };
             computeFrequency(arr);
 
+            // I tried to insert the Command Press Any key to Continue for Print Prime numbers however it did not work as planned.
+    
         }
         public static void printPrimeNumbers(int x, int y)
         {
