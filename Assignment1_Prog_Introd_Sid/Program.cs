@@ -31,7 +31,7 @@ namespace Assignment1_Prog_Introd_Sid
                     if (!isPrime(i))
                     {
                         Debug.WriteLine(i + " is prime");
-                    }
+                    }   
                 }
 
             }
@@ -104,7 +104,8 @@ namespace Assignment1_Prog_Introd_Sid
                     Console.Write("*");
                 Console.WriteLine();
             }
-            Console.ReadLine();
+            Console.WriteLine("Press Any Key to Continue...");
+            Console.ReadKey(true);
         }
         public static void computeFrequency(int[] arr)
         {
@@ -139,7 +140,8 @@ namespace Assignment1_Prog_Introd_Sid
                 if (Math.Abs(arr[j]) != 0)
                     Console.Write(j + 1 + "         " + Math.Abs(arr[j]) + "\n");
             }
-            Console.ReadLine();
+            Console.WriteLine("Press Any Key to Continue...");
+            Console.ReadKey(true);
         }
     }
 }
